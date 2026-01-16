@@ -1,14 +1,13 @@
 using UnityEngine;
 
-public class Randomnumbers : MonoBehaviour
+public class cienNumeros : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        for (int i = 0; i < 100; i++)
+        for (int i = 1; i <= 100; i++)
         {
-            int numeros = Random.Range(1, 101);
-            Debug.Log(numeros);
+            Debug.Log(i);
         }
     }
 
